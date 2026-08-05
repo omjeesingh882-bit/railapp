@@ -102,6 +102,60 @@ export const TRAINS_DB: TrainEntry[] = [
   { number: '12959', name: 'Dadar Shatabdi Express', from: 'Dadar', fromCode: 'DR', to: 'Ahmedabad', toCode: 'ADI' },
   { number: '15005', name: 'Rapti Sagar Express', from: 'Guwahati', fromCode: 'GHY', to: 'Delhi Anand Vihar', toCode: 'ANVT' },
   { number: '12595', name: 'Gorakhpur Express', from: 'Anand Vihar Terminal', fromCode: 'ANVT', to: 'Gorakhpur', toCode: 'GKP' },
+
+  // ==========================================
+  // BIHAR TO DELHI / MUMBAI / KOLKATA / HOWRAH
+  // ==========================================
+
+  // Bihar to Delhi
+  { number: '12393', name: 'Sampoorna Kranti Express', from: 'Rajendra Nagar Terminal', fromCode: 'RJPB', to: 'New Delhi', toCode: 'NDLS' },
+  { number: '12394', name: 'Sampoorna Kranti Express', from: 'New Delhi', fromCode: 'NDLS', to: 'Rajendra Nagar Terminal', toCode: 'RJPB' },
+  { number: '12391', name: 'Shramjeevi Express', from: 'Rajgir', fromCode: 'RGD', to: 'New Delhi', toCode: 'NDLS' },
+  { number: '12392', name: 'Shramjeevi Express', from: 'New Delhi', fromCode: 'NDLS', to: 'Rajgir', toCode: 'RGD' },
+  { number: '12565', name: 'Bihar Sampark Kranti Express', from: 'Darbhanga', fromCode: 'DBG', to: 'New Delhi', toCode: 'NDLS' },
+  { number: '12566', name: 'Bihar Sampark Kranti Express', from: 'New Delhi', fromCode: 'NDLS', to: 'Darbhanga', toCode: 'DBG' },
+  { number: '12553', name: 'Vaishali Express', from: 'Saharsa', fromCode: 'SHC', to: 'New Delhi', toCode: 'NDLS' },
+  { number: '12554', name: 'Vaishali Express', from: 'New Delhi', fromCode: 'NDLS', to: 'Saharsa', toCode: 'SHC' },
+  { number: '12309', name: 'Patna Tejas Rajdhani Express', from: 'Rajendra Nagar Terminal', fromCode: 'RJPB', to: 'New Delhi', toCode: 'NDLS' },
+  { number: '12310', name: 'Patna Tejas Rajdhani Express', from: 'New Delhi', fromCode: 'NDLS', to: 'Rajendra Nagar Terminal', toCode: 'RJPB' },
+  { number: '12296', name: 'Sanghamitra Express', from: 'Danapur', fromCode: 'DNR', to: 'Bengaluru', toCode: 'SBC' },
+  { number: '12369', name: 'Kumbh Express', from: 'Howrah', fromCode: 'HWH', to: 'Dehradun', toCode: 'DDN' },
+  { number: '12423', name: 'Dibrugarh Rajdhani Express', from: 'Dibrugarh', fromCode: 'DBRG', to: 'New Delhi', toCode: 'NDLS' },
+
+  // Bihar to Mumbai
+  { number: '12141', name: 'Patliputra - LTT SF Express', from: 'Patliputra', fromCode: 'PPTA', to: 'Lokmanya Tilak Terminus', toCode: 'LTT' },
+  { number: '12142', name: 'LTT - Patliputra SF Express', from: 'Lokmanya Tilak Terminus', fromCode: 'LTT', to: 'Patliputra', toCode: 'PPTA' },
+  { number: '13201', name: 'Patna - LTT Express', from: 'Patna Junction', fromCode: 'PNBE', to: 'Lokmanya Tilak Terminus', toCode: 'LTT' },
+  { number: '13202', name: 'LTT - Patna Express', from: 'Lokmanya Tilak Terminus', fromCode: 'LTT', to: 'Patna Junction', toCode: 'PNBE' },
+  { number: '12520', name: 'Kamakhya - Lokmanya Tilak AC SF Express', from: 'Kamakhya', fromCode: 'KYQ', to: 'Lokmanya Tilak Terminus', toCode: 'LTT' },
+
+  // Bihar to Kolkata / Howrah / Sealdah
+  { number: '12023', name: 'Howrah - Patna Jan Shatabdi Express', from: 'Howrah', fromCode: 'HWH', to: 'Patna Junction', toCode: 'PNBE' },
+  { number: '12024', name: 'Patna - Howrah Jan Shatabdi Express', from: 'Patna Junction', fromCode: 'PNBE', to: 'Howrah', toCode: 'HWH' },
+  { number: '22347', name: 'Howrah - Patna Vande Bharat Express', from: 'Howrah', fromCode: 'HWH', to: 'Patna Junction', toCode: 'PNBE' },
+  { number: '22348', name: 'Patna - Howrah Vande Bharat Express', from: 'Patna Junction', fromCode: 'PNBE', to: 'Howrah', toCode: 'HWH' },
+  { number: '12351', name: 'Howrah - Rajendra Nagar SF Express', from: 'Howrah', fromCode: 'HWH', to: 'Rajendra Nagar Terminal', toCode: 'RJPB' },
+  { number: '12352', name: 'Rajendra Nagar - Howrah SF Express', from: 'Rajendra Nagar Terminal', fromCode: 'RJPB', to: 'Howrah', toCode: 'HWH' },
+  { number: '13131', name: 'Kolkata - Patna Express', from: 'Kolkata', fromCode: 'KOAA', to: 'Patna Junction', toCode: 'PNBE' },
+  { number: '13132', name: 'Patna - Kolkata Express', from: 'Patna Junction', fromCode: 'PNBE', to: 'Kolkata', toCode: 'KOAA' },
+  { number: '12313', name: 'Sealdah Rajdhani Express', from: 'Sealdah', fromCode: 'SDAH', to: 'New Delhi', toCode: 'NDLS' },
+
+  // ==========================================
+  // LOCAL & MEMU PASSENGER TRAINS WITHIN BIHAR
+  // ==========================================
+
+  { number: '03611', name: 'Patna - Sasaram MEMU Special', from: 'Patna Junction', fromCode: 'PNBE', to: 'Sasaram', toCode: 'SSM' },
+  { number: '03612', name: 'Sasaram - Patna MEMU Special', from: 'Sasaram', fromCode: 'SSM', to: 'Patna Junction', toCode: 'PNBE' },
+  { number: '03222', name: 'Ara - Patna MEMU Special', from: 'Ara Junction', fromCode: 'ARA', to: 'Patna Junction', toCode: 'PNBE' },
+  { number: '03221', name: 'Patna - Ara MEMU Special', from: 'Patna Junction', fromCode: 'PNBE', to: 'Ara Junction', toCode: 'ARA' },
+  { number: '03263', name: 'Patna - Gaya MEMU Special', from: 'Patna Junction', fromCode: 'PNBE', to: 'Gaya Junction', toCode: 'GAYA' },
+  { number: '03264', name: 'Gaya - Patna MEMU Special', from: 'Gaya Junction', fromCode: 'GAYA', to: 'Patna Junction', toCode: 'PNBE' },
+  { number: '03214', name: 'Patna - Barauni MEMU Special', from: 'Patna Junction', fromCode: 'PNBE', to: 'Barauni Junction', toCode: 'BJU' },
+  { number: '03284', name: 'Patna - Buxar MEMU Special', from: 'Patna Junction', fromCode: 'PNBE', to: 'Buxar', toCode: 'BXR' },
+  { number: '03283', name: 'Buxar - Patna MEMU Special', from: 'Buxar', fromCode: 'BXR', to: 'Patna Junction', toCode: 'PNBE' },
+  { number: '05256', name: 'Samastipur - Muzaffarpur MEMU', from: 'Samastipur', fromCode: 'SPJ', to: 'Muzaffarpur', toCode: 'MFP' },
+  { number: '05255', name: 'Muzaffarpur - Samastipur MEMU', from: 'Muzaffarpur', fromCode: 'MFP', to: 'Samastipur', toCode: 'SPJ' },
+  { number: '05221', name: 'Saharsa - Purnea Court DEMU', from: 'Saharsa', fromCode: 'SHC', to: 'Purnea Court', toCode: 'PRNC' },
 ];
 
 /**
